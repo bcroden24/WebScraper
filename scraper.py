@@ -58,5 +58,6 @@ for row in data:
     length = len(df)
     df.loc[length] = row
 
+file_path = r'C:\Users\BenRo\OneDrive\Documents\Data Engineering\Projects\WebScraper\Output\CompaniesData.csv'
 # Export dataframe to csv file without index
-df.to_csv(r'C:\Users\BenRo\OneDrive\Documents\Data Engineering\Projects\WebScraper\Output\CompaniesData.csv', index = False)
+df.to_csv(file_path, index = False)
